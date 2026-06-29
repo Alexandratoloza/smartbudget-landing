@@ -1,0 +1,28 @@
+.header {
+    background-color: $secondary-color;
+    padding: 1rem 0;
+
+    &__logo {
+        color: white;
+        font-weight: bold;
+    }
+
+    &__menu {
+        list-style: none;
+        @include flex-center;
+        gap: 1rem;
+
+        &-item {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    &__cta {
+        background-color: $primary-color;
+        border: none;
+        padding: 0.5rem 1rem;
+        color: white;
+        cursor: pointer;
+    }
+}
